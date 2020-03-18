@@ -22,7 +22,7 @@ Whenever metadata for a new screen is available, the following steps should be f
     6. Analysis
     7. Comparison
     8. Comparison Sample
-3. Once you are happy that everything is there then approve all the new rows in each table (see ['Approving Multiple Entries'](#apprv) to speed this up).
+3. Once you are happy that everything is there then approve all the new rows in each table (see [Approving Multiple Entries](#apprv) to speed this up).
 4. Once approved, a new analysis config JSON file will be produced in the 'Output Files' section (see Navigation panel at the top).
 
 ## <a name="apprv"></a>Approving Multiple Entries
@@ -43,9 +43,9 @@ Please contact [Alex Kalinka](mailto:alex.kalinka@cancer.org.uk).
 
 ## Acknowledgements
 
-**Schema design**: Jenny McKelvie, Ultan McDermott, Mike Firth
-
-**Sharepoint implementation**: James Beckenham
-
-**Sharepoint admin**: James Beckenham
+|Task|Responsible|
+---|---|
+|Schema design|Jenny McKelvie, Ultan McDermott, Mike Firth|
+|Sharepoint implementation|James Beckenham|
+|Sharepoint admin|James Beckenham|
 
