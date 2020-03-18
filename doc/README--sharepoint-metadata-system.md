@@ -41,3 +41,11 @@ The analysis config JSON can be validated using an R markdown script provided in
 
 Please contact [Alex Kalinka](mailto:alex.kalinka@cancer.org.uk).
 
+## Acknowledgements
+
+**Schema design**: Jenny McKelvie, Ultan McDermott, Mike Firth
+
+**Sharepoint implementation**: James Beckenham
+
+**Sharepoint admin**: James Beckenham
+
