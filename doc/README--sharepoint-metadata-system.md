@@ -22,10 +22,10 @@ Whenever metadata for a new screen is available, the following steps should be f
     6. Analysis
     7. Comparison
     8. Comparison Sample
-3. Once you are happy that everything is there then approve all the new rows in each table (see 'Approving Multiple Entries' below to speed this up).
+3. Once you are happy that everything is there then approve all the new rows in each table (see ['Approving Multiple Entries'](#apprv) to speed this up).
 4. Once approved, a new analysis config JSON file will be produced in the 'Output Files' section (see Navigation panel at the top).
 
-## Approving Multiple Entries
+## <a name="apprv"></a>Approving Multiple Entries
 
 Approving each row in each table one at a time is very slow. This can be sped up as follows:
 
