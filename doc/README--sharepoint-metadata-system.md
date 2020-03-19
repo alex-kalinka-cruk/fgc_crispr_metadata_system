@@ -1,3 +1,6 @@
+![version](https://img.shields.io/badge/Version-8.0-green)
+
+
 # FGC CRISPR Sharepoint Metadata database
 
 ## Table of Contents
