@@ -34,13 +34,19 @@ Whenever metadata for a new screen is available, the following steps should be f
 3. Once you are happy that everything is there then approve all the new rows in each table (see [Approving Multiple Entries](#apprv) to speed this up).
 4. Once approved, a new analysis config JSON file will be produced in the 'Output Files' section (see Navigation panel at the top).
 
+![output](output_files.png)
+
 ## <a name="apprv"></a>Approving Multiple Entries
 
 Approving each row in each table one at a time is very slow. This can be sped up as follows:
 
 1. When in a table view, click on the left-most circle at the top of the table so that ticks appear down the left-hand side for all the rows in the table.
-2. Click on the 'i' in a circle in the top-right.
+![toggle](toggle.png)
+2. Click on the 'details pane' icon (an 'i' in a circle in the top-right).
+![details](details_pane.png)
 3. In the 'Bulk edit properties' side-panel, in the 'Item Status' drop-down menu select 'Approved'.
+
+![bulk edit](bulk_edit.png)
 
 ## <a name="valid"></a> Validating the analysis config JSON
 
