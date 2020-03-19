@@ -1,14 +1,23 @@
 # FGC CRISPR Sharepoint Metadata database
 
-## Overview
+## Table of Contents
+
+* [Overview](#intro)
+* [Entering data](#entry)
+* [Approving Multiple Entries](#apprv)
+* [Validating the analysis config](#valid)
+* [Bugs, Issues, or Requests](#bugs)
+* [Acknowledgements](#ack)
+
+## <a name="intro"></a> Overview
 
 The FGC CRISPR Metadata system performs the following functions:
 
 * Provides a database schema and data-entry system for gathering relevant metadata for FGC CRISPR screens (e.g. Cas 9 activity, Cell model, Sample types, etc).
-* Produces an analysis config that can be provided to the AZ/CRUK [CRISPR analysis pipeline](https://bitbucket.astrazeneca.com/projects/DA/repos/az-cruk-crispr-pipeline/browse) for generating candidate screen hits.
+* Produces an analysis config that can be provided to the AZ/CRUK [CRISPR analysis pipeline](https://bitbucket.astrazeneca.com/projects/DA/repos/az-cruk-crispr-pipeline/browse) for generating candidate pooled-CRISPR screen hits.
 * Provides a means to validate the data in the analysis pipeline config JSON file.
 
-## Entering data
+## <a name="entry"></a> Entering data
 
 Whenever metadata for a new screen is available, the following steps should be followed:
 
@@ -33,19 +42,20 @@ Approving each row in each table one at a time is very slow. This can be sped up
 2. Click on the 'i' in a circle in the top-right.
 3. In the 'Bulk edit properties' side-panel, in the 'Item Status' drop-down menu select 'Approved'.
 
-## Validating the analysis config JSON
+## <a name="valid"></a> Validating the analysis config JSON
 
 The analysis config JSON can be validated using an R markdown script provided in the library for the Sharepoint site and linked to in the Navigation panel.
 
-## Bugs, Issues, or Requests
+## <a name="bugs"></a> Bugs, Issues, or Requests
 
 Please contact [Alex Kalinka](mailto:alex.kalinka@cancer.org.uk).
 
-## Acknowledgements
+## <a name="ack"></a> Acknowledgements
 
 |Task|Responsible|
 ---|---|
 |Schema design|Jenny McKelvie, Ultan McDermott, Mike Firth|
 |Sharepoint implementation|James Beckenham|
 |Sharepoint admin|James Beckenham|
+|Updated design for v8|Alex Kalinka, Jennifer Hillis, David Walter|
 
